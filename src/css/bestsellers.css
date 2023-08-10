@@ -12,7 +12,6 @@
     margin-bottom: 64px;
 }
 
-
 .section-title-bestseller{
     color:  #0A224A;
     font-family: Roboto;
@@ -52,4 +51,5 @@
     
     .bestseller-img{
         margin-bottom: 14px;
+        width: 100%;
     }
