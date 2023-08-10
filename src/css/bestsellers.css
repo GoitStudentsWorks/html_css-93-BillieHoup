@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.bestseller{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+
+.section-title-bestseller{
+    color:  #0A224A;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    
+    text-align: center;
+    margin-bottom: 21px;
+    }
+    
+    .bestseller-title{
+        margin-bottom: 30px;
+    }
+    
+    .bestseller-text{
+    color: #0A224A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    margin-bottom: 10px;
+    }
+    
+    .bestseller-price{
+    color: #0A224A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    }
+    
+    .bestseller-img{
+        margin-bottom: 14px;
+    }
