@@ -1,11 +1,18 @@
 .hero-section{
-    padding: 0;
-  background-image: url(../img/mobile-product1-1x.jpg);
+    padding: 140px 0;
+    
 }
-.container {}
+.container {
+    
+}
 
 .hero-container {
     background-image: url(../img/mobile-product1-1x.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+        background-position: center;
+        max-width: 428px;
+        margin: 0 auto;
 }
 
 .hero-box-first {}
