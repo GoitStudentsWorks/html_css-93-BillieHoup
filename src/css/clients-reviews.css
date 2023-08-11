@@ -1,0 +1,45 @@
+.clients-review {
+  background: var(--main-font-color);
+  padding: 36px 0 36px 0;
+}
+.clients-tittle {
+  margin: 36px 71px 70px 30px;
+  color: var(--main-buttons-color);
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.clients-list {
+}
+.clients-item {
+}
+.clients-box {
+  /* display: inline; */
+  border-radius: 8px;
+  background: var(--white, #fff);
+  margin: 30px 16px 36px 16px;
+}
+.clients-data {
+}
+.clients-photo {
+  margin: 24px 0 0 24px;
+}
+.clients-name {
+  margin-top: 24px;
+  margin-left: 2px;
+}
+.clients-time {
+}
+.clients-words {
+  margin: 24px;
+}
+.tablet-client {
+  display: none;
+}
+
+.pc-client {
+  display: none;
+}
