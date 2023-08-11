@@ -1,5 +1,5 @@
 .hero-section{
-    padding: 140px 0;
+    /* padding: 140px 0; */
     
 }
 .container {
@@ -7,12 +7,12 @@
 }
 
 .hero-container {
+    padding-top: 140px;
+    padding-bottom: 313px;
     background-image: url(../img/mobile-product1-1x.jpg);
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
-        background-position: center;
-        max-width: 428px;
-        margin: 0 auto;
+     margin: 0 auto;
 }
 
 .hero-box-first {}
@@ -26,7 +26,6 @@
     font-weight: 400;
     line-height: 1.5;
     text-transform: uppercase;
-    margin-top: 140px;
     margin-bottom: 14px;
 }
 
