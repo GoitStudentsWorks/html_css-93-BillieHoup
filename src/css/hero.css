@@ -3,12 +3,19 @@
         padding-bottom: 313px;
         padding-left: 16px;
         padding-right: 52px;
-        background-image: url(../img/mobile-product1-2x.jpg);
+        background-image: url(../img/mobile-product1-1x.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0 auto;
         max-width: 375px;
  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+      .hero-section {
+          background-image: url(../img/mobile-product1-2x.jpg);
+      }
+  }
  .hero-container {
      width: 100%;
      max-width: 375px;
@@ -37,7 +44,7 @@
      margin-bottom: 28px;
  }
 
- .hero-button {
+ .hero-link {
      display: flex;
      width: 224px;
      padding: 12px 65px;
@@ -64,6 +71,7 @@
         background-image: none;
         max-width: 768px;
      }
+     
      .hero-container {
         max-width: 706px;
         
@@ -78,6 +86,14 @@
     height: 531px;
    
     }
+         @media (min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+             .hero-box-first {
+                 background-image: url(../img/tablet-product1-2x.jpg),
+                 url(../img/tablet-product2-2x.jpg);
+             }
+         }
      .hero-title {
          max-width: 648px;
          font-size: 50px;
@@ -94,7 +110,7 @@
          margin-bottom: 30px;
      }
 
-     .hero-button {
+     .hero-link {
          height: 50px;
          padding: 17px 65px;
 
@@ -127,9 +143,7 @@
         max-width: 312px;
         
     }
-    .hero-box-item{
-        
-    }
+  
         .hero-text{
             max-width: 312px;
             
