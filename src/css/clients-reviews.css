@@ -22,10 +22,16 @@
   background: var(--white, #fff);
   margin: 30px 16px 36px 16px;
 }
+
+.clients-form {
+  display: flex;
+}
 .clients-data {
 }
 .clients-photo {
-  margin: 24px 0 0 24px;
+  margin: 24px 14px 20px 24px;
+}
+.clients-info {
 }
 .clients-name {
   margin-top: 24px;
@@ -34,7 +40,7 @@
 .clients-time {
 }
 .clients-words {
-  margin: 24px;
+  padding: 24px;
 }
 .tablet-client {
   display: none;
