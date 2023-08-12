@@ -16,7 +16,7 @@
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
 }
 @media screen and (min-width: 375px) {
     .bestsellers-container{
