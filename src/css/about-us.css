@@ -11,3 +11,7 @@ color: var(--main-buttons-color);
 .about-par-4 {
     margin-bottom: 64px;
 }
+
+.about-par-5{
+    padding-bottom: 64px;
+}
