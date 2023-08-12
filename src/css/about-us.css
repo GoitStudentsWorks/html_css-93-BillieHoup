@@ -1,3 +1,13 @@
 .about-us {
+    padding: 64px 0;
 color: var(--main-buttons-color);
+}
+
+.about-img {
+    width: 100%;
+    max-width: 375px;
+}
+
+.about-par-4 {
+    margin-bottom: 64px;
 }
