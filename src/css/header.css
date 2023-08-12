@@ -75,4 +75,15 @@
     line-height: 1.5;
   }
 
+  @media screen and (min-width: 768px) {
+    .header-container {max-width: 1439px;
+    padding: 28px 32px;}
 
+    .mob-menu-list {padding-top: 150px;
+    
+    }
+
+
+
+
+    }
