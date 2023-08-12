@@ -55,7 +55,6 @@
      line-height: 1.5;
  }
 
-<<<<<<< Updated upstream
  @media screen and (min-width: 768px) {
      .hero-section{
         padding-top: 64px;
@@ -67,23 +66,6 @@
      }
      .hero-container {
         max-width: 706px;
-=======
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 712px;
-    }
-    .hero-section{
-        padding-top: 64px;
-        padding-bottom: 100px;
-    }
-    .hero-container{
-        background-image: url(../img/tablet-product1-1x.jpg), 
-        url(../img/tablet-product2-1x.jpg);
-        background-position: left, right;
-        background-size: auto;
-        max-width: 712px;
-        padding-top: 64px;
->>>>>>> Stashed changes
         
 
      }
@@ -96,7 +78,6 @@
     height: 531px;
    
     }
-<<<<<<< Updated upstream
      .hero-title {
          max-width: 648px;
          font-size: 50px;
@@ -126,28 +107,31 @@
      }
     .hero-container{
         display: flex;
-        justify-content: space-between;
+        
        max-width: 1340px;
     }
     .hero-box-first{
         background-image: url(../img/desctop-product1-1x.jpg), 
         url(../img/desctop-product2-1x.jpg);
-        background-position: left bottom, right bottom;
-=======
-    .hero-title{
-        max-width: 648px;
-        font-size: 50px;
->>>>>>> Stashed changes
-        
+        width: 100%;
+        background-position: 0% bottom, 75% bottom;
+        margin: 0 auto;
     }
     .hero-box-second{
         background-image: url(../img/desctop-product3-1x.jpg);
         background-size: auto;
         background-repeat: no-repeat;
-        background-position: right top;
+        background-position: ;
         margin-top: 0;
+        max-width: 312px;
+        display: block;
+        flex-direction: column;
     }
         .hero-text{
-            margin-top: 0;
+            max-width: 312px;
+            
+        }
+        .hero-link{
+            margin-bottom: 0;
         }
  }
