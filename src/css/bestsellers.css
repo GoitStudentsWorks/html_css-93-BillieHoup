@@ -1,19 +1,51 @@
-.container{
+.bestsellers{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+@media screen and (min-width: 768px) {
+    .bestsellers{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+}
+
+
+.bestsellers-container{
     width: 100%;
-    max-width: 375px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
+    outline: 1px solid tomato;
+}
+@media screen and (min-width: 375px) {
+    .bestsellers-container{
+       max-width: 375px;
+}
+}
+@media screen and (min-width: 768px) {
+    .bestsellers-container{
+       max-width: 768px;
+}
+}
+@media screen and (min-width: 1440px) {
+    .bestsellers-container{
+       max-width: 1096px;
+}
 }
 
-.bestseller{
-    margin-top: 64px;
-    margin-bottom: 64px;
+@media screen and (min-width: 768px) {
+    .bestseller-flex{
+       display: flex;
+       flex-wrap: wrap;
+      
+}
 }
 
-.section-title-bestseller{
-    color: #0A224A;
+
+
+.title-bestseller{
+    color: var(--main-buttons-color);
     font-family: Roboto;
     font-size: 28px;
     font-style: normal;
@@ -24,13 +56,29 @@
     text-align: center;
     margin-bottom: 21px;
     }
+@media screen and (min-width: 768px) {
+    .title-bestseller{
+        font-size: 32px;
+        line-height: 1.4;
+        margin-bottom: 30px;
+    }
+    }
     
+
     .bestseller-title{
         margin-bottom: 30px;
     }
-    
+    @media screen and (min-width: 768px) {
+        .bestseller-title{
+            margin-bottom: 0;
+            margin-bottom: 30px;
+        }
+        }
+
+
+   
     .bestseller-text{
-    color:#0A224A;
+    color: var(--main-buttons-color);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -39,17 +87,57 @@
     
     margin-bottom: 10px;
     }
-    
-    .bestseller-price{
-    color:#0A224A;
+@media screen and (min-width: 768px) {
+    .bestseller-text{
+        font-size: 18px;
+       
+    }
+    }    
+
+
+.bestseller-price{
+    color: var(--main-buttons-color);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.5;
     }
+@media screen and (min-width: 768px) {
+    .bestseller-price{
+        font-size: 18px;
+    }
+    }      
     
-    .bestseller-img{
+
+.bestseller-img{
         margin-bottom: 14px;
         width: 100%;
     }
+    @media screen and (min-width: 768px) {
+        .bestseller-img{
+            margin-bottom: 15px;
+        }
+        }   
+
+
+.none-img{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .none-img{
+    display: block;
+    }
+    }   
+
+
+    
+    @media screen and (min-width: 768px) {
+        .bestseller-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+       
+        }
+    }   
+      
