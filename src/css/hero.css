@@ -73,27 +73,28 @@
      }
      
      .hero-container {
-        max-width: 706px;
-        
+        max-width: 706px;     
 
      }
+
     .hero-box-first{
      background-image: url(../img/tablet-product1-1x.jpg),
       url(../img/tablet-product2-1x.jpg);
       background-position: left bottom, right bottom;
       background-size: auto;
-    background-repeat: no-repeat;
-    height: 531px;
+      background-repeat: no-repeat;
+      height: 531px;
    
     }
-         @media (min-device-pixel-ratio: 2),
-         (min-resolution: 192dpi),
-         (min-resolution: 2dppx) {
-             .hero-box-first {
-                 background-image: url(../img/tablet-product1-2x.jpg),
-                 url(../img/tablet-product2-2x.jpg);
-             }
-         }
+
+    /* @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-box-first {
+        background-image: url(../img/tablet-product1-2x.jpg),
+        url(../img/tablet-product2-2x.jpg);
+    }
+    } */
      .hero-title {
          max-width: 648px;
          font-size: 50px;
@@ -144,7 +145,18 @@
         justify-content: end;
         flex-direction: column;
     }
-  
+      
+        /* @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero-box-first{
+        background-image: url(../img/desctop-product1-2x.jpg),
+        url(../img/desctop-product2-2x.jpg);
+        }
+        .hero-box-second{
+        background-image: url(../img/desctop-product3-2x.jpg);
+        }
+        } */
         .hero-text{
             max-width: 312px;
             
