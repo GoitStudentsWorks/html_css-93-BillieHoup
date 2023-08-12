@@ -114,18 +114,21 @@
         background-image: url(../img/desctop-product1-1x.jpg), 
         url(../img/desctop-product2-1x.jpg);
         width: 100%;
-        background-position: 0% bottom, 75% bottom;
+        background-position: 0% bottom, 88% bottom;
         margin: 0 auto;
     }
     .hero-box-second{
         background-image: url(../img/desctop-product3-1x.jpg);
         background-size: auto;
         background-repeat: no-repeat;
-        background-position: ;
+        background-position: right top;
         margin-top: 0;
+        width: 100%;
         max-width: 312px;
-        display: block;
-        flex-direction: column;
+        
+    }
+    .hero-box-item{
+        
     }
         .hero-text{
             max-width: 312px;
@@ -134,4 +137,4 @@
         .hero-link{
             margin-bottom: 0;
         }
- }
+    }
