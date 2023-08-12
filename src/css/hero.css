@@ -1,85 +1,129 @@
-
-.hero-container {
+ .hero-section{
     padding-top: 140px;
-    padding-bottom: 313px;
-    background-image: url(../img/mobile-product1-1x.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-     margin: 0 auto;
-        width: 100%;
-        max-width: 375px;
-        margin-left: auto;
-        margin-right: auto;
+        padding-bottom: 313px;
         padding-left: 16px;
-        padding-right: 16px;
-}
+        padding-right: 52px;
+        background-image: url(../img/mobile-product1-2x.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        max-width: 375px;
+ }
+ .hero-container {
+     width: 100%;
+     max-width: 375px;
+     
+ }
 
-.hero-title {
-    max-width: 285px;
-    color: var(--blue-font, #0A224A);
-    font-family: Playfair Display;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    text-transform: uppercase;
-    margin-bottom: 14px;
-}
+ .hero-title {
+     max-width: 285px;
+     color: var(--blue-font, #0A224A);
+     font-family: Playfair Display;
+     font-size: 28px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.5;
+     text-transform: uppercase;
+     margin-bottom: 14px;
+ }
 
-.hero-text {
-color: var(--blue-font, #0A224A);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 18px;
-}
+ .hero-text {
+     color: var(--blue-font, #0A224A);
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.5;
+     margin-bottom: 28px;
+ }
 
-.hero-button {
-    display: flex;
-        width: 224px;
-        padding: 12px 65px;
-        justify-content: center;
-        align-items: center;
-        gap: 6px;
-        background: var(--blue-font, #0A224A);
-        color: var(--white, #FFF);
-        border: none;
-        cursor: pointer;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-}
+ .hero-button {
+     display: flex;
+     width: 224px;
+     padding: 12px 65px;
+     justify-content: center;
+     align-items: center;
+     gap: 6px;
+     background: var(--blue-font, #0A224A);
+     color: var(--white, #FFF);
+     border: none;
+     cursor: pointer;
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.5;
+ }
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 712px;
-    }
-    .hero-container{
-        background-image: url(../img/tablet-product1-1x.jpg), 
-        url(../img/tablet-product2-1x.jpg);
-        background-position: left, right;
-        background-size: auto;
-        max-width: 712px;
+ @media screen and (min-width: 768px) {
+     .hero-section{
+        padding-top: 64px;
+        padding-bottom: 100px;
+        padding-left: 28px;
+        padding-right: 29px;
+        background-image: none;
+        max-width: 768px;
+     }
+     .hero-container {
+        max-width: 706px;
         
+
+     }
+    .hero-box-first{
+     background-image: url(../img/tablet-product1-1x.jpg),
+      url(../img/tablet-product2-1x.jpg);
+      background-position: left bottom, right bottom;
+      background-size: auto;
+    background-repeat: no-repeat;
+    height: 531px;
+   
     }
-    .hero-title{
-        max-width: 648px;
-        font-size: 50px;
+     .hero-title {
+         max-width: 648px;
+         font-size: 50px;
+         
+     }
+
+     .hero-box-second {
+        margin-top: 32px;
+     }
+
+     .hero-text {
+         font-size: 18px;
+         max-width: 312px;
+         margin-bottom: 30px;
+     }
+
+     .hero-button {
+         height: 50px;
+         padding: 17px 65px;
+
+     }
+ }
+
+ @media screen and (min-width: 1440px) {
+     .hero-section{
+      max-width: 1440px;
+     }
+    .hero-container{
+        display: flex;
+        justify-content: space-between;
+       max-width: 1340px;
+    }
+    .hero-box-first{
+        background-image: url(../img/desctop-product1-1x.jpg), 
+        url(../img/desctop-product2-1x.jpg);
+        background-position: left bottom, right bottom;
+        
     }
     .hero-box-second{
-        
+        background-image: url(../img/desctop-product3-1x.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-top: 0;
     }
-    .hero-text{
-        font-size: 16px;
-        max-width: 312px;
-    }
-    .hero-button{
-            height: 50px;
-            padding: 17px 65px;
-            
-    }
-}
+        .hero-text{
+            margin-top: 0;
+        }
+ }
