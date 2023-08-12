@@ -5,8 +5,18 @@
       <p class="section-text">
         Every week we will send you new designs and information about sales.
         <form class="subscription-form">
-            <input type="text" id="user-name" placeholder="Name" minlength="2" maxlength="16" class="form-input" required>
-            <input type="email" id="user-email" placeholder="E-mail" class="form-input" required>
+            <div class="form-field">
+              <input type="text" id="user-name" placeholder="Name" minlength="2" maxlength="16" class="form-input" required>
+              <svg class="error-icon" width="24" height="24">
+                <use href="../img/symbol-defs.svg#icon-error"></use>
+              </svg>
+            </div>
+            <div class="form-field">
+              <input type="email" id="user-email" placeholder="E-mail" class="form-input" required>
+              <svg class="error-icon" width="24" height="24">
+                <use href="../img/symbol-defs.svg#icon-error"></use>
+              </svg>
+            </div>
             <div class="form-checkbox-field">
               <input type="checkbox" id="user-privacy" class="form-input-checkbox visually-hidden">
               <label for="user-privacy" class="form-label-privacy"><span class="form-checkbox"><svg class="checkbox-icon" width="13" height="13"><use href="../img/symbol-defs.svg#icon-ok"></use></svg></span>Agree to subscribe to the newsletter</label>
