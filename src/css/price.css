@@ -1,6 +1,11 @@
+hr {
+  height: 1px;
+  background: #0a224a;
+}
+
 .container-price {
   width: 100%;
-  max-width: 375px;
+  max-width: 343px;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
@@ -40,7 +45,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  /* position: absolute; */
   transition: transform 0.3s ease;
   text-transform: uppercase;
   text-align: left;
@@ -51,7 +55,7 @@
   left: -35px;
   top: 50%;
   transform: translateX(50%);
-  height: 1px;
+  height: 2px;
   width: 20px;
   background-color: white;
 }
