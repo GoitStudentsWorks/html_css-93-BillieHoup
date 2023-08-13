@@ -1,6 +1,6 @@
 .clients-section {
-  /* background: var(--main-font-color); */
-  background-color: #585bef;
+  background: var(--main-font-color);
+  /* background-color: #585bef; */
   padding: 36px 0 36px 0;
 }
 
