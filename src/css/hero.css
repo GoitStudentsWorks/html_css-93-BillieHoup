@@ -51,7 +51,8 @@
      justify-content: center;
      align-items: center;
      gap: 6px;
-     background: var(--blue-font, #0A224A);
+     background:var(--main-buttons-color);
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      color: var(--white, #FFF);
      border: none;
      cursor: pointer;
@@ -60,6 +61,9 @@
      font-style: normal;
      font-weight: 400;
      line-height: 1.5;
+ }
+ .hero-link:is(:hover, :focus){
+    background: #061835;
  }
 
  @media screen and (min-width: 768px) {
@@ -81,20 +85,20 @@
      background-image: url(../img/tablet-product1-1x.jpg),
       url(../img/tablet-product2-1x.jpg);
       background-position: left bottom, right bottom;
-      background-size: auto;
+      background-size: 308px, 364px;
       background-repeat: no-repeat;
       height: 531px;
    
     }
 
-    /* @media (min-device-pixel-ratio: 2),
+    @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-box-first {
         background-image: url(../img/tablet-product1-2x.jpg),
         url(../img/tablet-product2-2x.jpg);
     }
-    } */
+    }
      .hero-title {
          max-width: 648px;
          font-size: 50px;
@@ -131,6 +135,7 @@
     .hero-box-first{
         background-image: url(../img/desctop-product1-1x.jpg), 
         url(../img/desctop-product2-1x.jpg);
+        background-size: 310px, 648px;
         width: 100%;
         max-width: 983px;
         margin-right: 25px;
@@ -138,6 +143,7 @@
     .hero-box-second{
         background-image: url(../img/desctop-product3-1x.jpg);
         background-repeat: no-repeat;
+        background-size: 312px;
         margin-top: 0;
         width: 100%;
         max-width: 312px;
@@ -146,7 +152,7 @@
         flex-direction: column;
     }
       
-        /* @media (min-device-pixel-ratio: 2),
+        @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         .hero-box-first{
@@ -156,7 +162,7 @@
         .hero-box-second{
         background-image: url(../img/desctop-product3-2x.jpg);
         }
-        } */
+        }
         .hero-text{
             max-width: 312px;
             
