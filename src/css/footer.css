@@ -1,0 +1,18 @@
+.footer {
+  background: #0a224a;
+  padding-bottom: 42px;
+  padding-top: 16px;
+}
+
+.footer-container {
+  width: 100%;
+  /* max-width: 343px; */
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.footer-logo {
+}
+
+.footer-logo-icon {
+}
