@@ -3,12 +3,19 @@
         padding-bottom: 313px;
         padding-left: 16px;
         padding-right: 52px;
-        background-image: url(../img/mobile-product1-2x.jpg);
+        background-image: url(../img/mobile-product1-1x.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0 auto;
         max-width: 375px;
  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+      .hero-section {
+          background-image: url(../img/mobile-product1-2x.jpg);
+      }
+  }
  .hero-container {
      width: 100%;
      max-width: 375px;
@@ -37,14 +44,15 @@
      margin-bottom: 28px;
  }
 
- .hero-button {
+ .hero-link {
      display: flex;
      width: 224px;
      padding: 12px 65px;
      justify-content: center;
      align-items: center;
      gap: 6px;
-     background: var(--blue-font, #0A224A);
+     background:var(--main-buttons-color);
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      color: var(--white, #FFF);
      border: none;
      cursor: pointer;
@@ -54,29 +62,42 @@
      font-weight: 400;
      line-height: 1.5;
  }
+ .hero-link:is(:hover, :focus){
+    background: #061835;
+ }
 
  @media screen and (min-width: 768px) {
      .hero-section{
         padding-top: 64px;
         padding-bottom: 100px;
         padding-left: 28px;
-        padding-right: 29px;
+        padding-right: 32px;
         background-image: none;
         max-width: 768px;
      }
+     
      .hero-container {
-        max-width: 706px;
-        
+        max-width: 706px;     
 
      }
+
     .hero-box-first{
      background-image: url(../img/tablet-product1-1x.jpg),
       url(../img/tablet-product2-1x.jpg);
       background-position: left bottom, right bottom;
-      background-size: auto;
-    background-repeat: no-repeat;
-    height: 531px;
+      background-size: 308px, 364px;
+      background-repeat: no-repeat;
+      height: 531px;
    
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-box-first {
+        background-image: url(../img/tablet-product1-2x.jpg),
+        url(../img/tablet-product2-2x.jpg);
+    }
     }
      .hero-title {
          max-width: 648px;
@@ -94,7 +115,7 @@
          margin-bottom: 30px;
      }
 
-     .hero-button {
+     .hero-link {
          height: 50px;
          padding: 17px 65px;
 
@@ -104,29 +125,44 @@
  @media screen and (min-width: 1440px) {
      .hero-section{
       max-width: 1440px;
+      padding-left: 60px;
+      padding-right: 60px;
      }
     .hero-container{
         display: flex;
-        
-       max-width: 1340px;
+        max-width: 1320px;
     }
     .hero-box-first{
         background-image: url(../img/desctop-product1-1x.jpg), 
         url(../img/desctop-product2-1x.jpg);
+        background-size: 310px, 648px;
         width: 100%;
-        background-position: 0% bottom, 75% bottom;
-        margin: 0 auto;
+        max-width: 983px;
+        margin-right: 25px;
     }
     .hero-box-second{
         background-image: url(../img/desctop-product3-1x.jpg);
-        background-size: auto;
         background-repeat: no-repeat;
-        background-position: ;
+        background-size: 312px;
         margin-top: 0;
+        width: 100%;
         max-width: 312px;
-        display: block;
+        display: flex;
+        justify-content: end;
         flex-direction: column;
     }
+      
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero-box-first{
+        background-image: url(../img/desctop-product1-2x.jpg),
+        url(../img/desctop-product2-2x.jpg);
+        }
+        .hero-box-second{
+        background-image: url(../img/desctop-product3-2x.jpg);
+        }
+        }
         .hero-text{
             max-width: 312px;
             
@@ -134,4 +170,4 @@
         .hero-link{
             margin-bottom: 0;
         }
- }
+    }
