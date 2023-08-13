@@ -1,11 +1,19 @@
-#subscription {
+.subscription {
   margin-top: 64px;
   margin-bottom: 64px;
 }
 
+.subscription .container {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 375px;
+}
+
 /* .visually-hidden використовується аби сховати стандартний чекбокс */
 
-#subscription .visually-hidden {
+.subscription .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -18,7 +26,7 @@
   overflow: hidden;
 }
 
-#subscription .subscription-image {
+.subscription .subscription-image {
   max-width: 343px;
   height: 300px;
 }
@@ -30,7 +38,7 @@
   object-position: 33%;
 }
 
-#subscription .section-title {
+.subscription .section-title {
   margin-bottom: 20px;
   color: var(--blue-font, #0a224a);
   font-size: 28px;
@@ -41,7 +49,7 @@
   text-align: center;
 }
 
-#subscription .section-text {
+.subscription .section-text {
   margin-bottom: 30px;
   color: var(--blue-font, #0a224a);
   font-weight: 400;
@@ -71,7 +79,7 @@
   fill: #e74a3b;
 }
 
-#subscription .form-input {
+.subscription .form-input {
   width: 100%;
   padding: 11px 64px 11px 20px;
   height: 50px;
@@ -82,23 +90,23 @@
   outline: none;
 }
 
-#subscription .form-input:hover,
-#subscription .form-input:focus {
+.subscription .form-input:hover,
+.subscription .form-input:focus {
   color: var(--blue-font, #0a224a);
   border: 1px solid var(--blue-font, #0a224a);
 }
 
-#subscription .form-input:invalid {
+.subscription .form-input:invalid {
   color: #e74a3b;
   border: 1px solid #e74a3b;
 }
 
-#subscription .form-input::placeholder {
+.subscription .form-input::placeholder {
   color: var(--grey, #d9d9d9);
   font-style: normal;
 }
 
-#subscription .form-label-privacy {
+.subscription .form-label-privacy {
   display: block;
   color: #7a7a7a;
 }
@@ -139,11 +147,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  #subscription {
+  .subscription {
     margin-top: 100px;
     margin-bottom: 100px;
   }
-  #subscription .container {
+  .subscription .container {
     padding-left: 32px;
     padding-right: 32px;
     max-width: 768px;
@@ -153,14 +161,14 @@
     max-width: 536px;
   }
 
-  #subscription .section-title {
+  .subscription .section-title {
     margin-bottom: 30px;
     text-align: left;
     font-size: 32px;
     line-height: 1.4;
   }
 
-  #subscription .section-text {
+  .subscription .section-text {
     margin-bottom: 20px;
     font-size: 18px;
   }
@@ -178,8 +186,35 @@
     font-size: 18px;
   }
 
-  #subscription .subscription-image {
+  .subscription .subscription-image {
     max-width: 704px;
     height: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .subscription {
+    margin-bottom: 86px;
+  }
+
+  .subscription .container {
+    max-width: 1096px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    gap: 100px;
+  }
+
+  .subscription-form {
+    margin-bottom: 0;
+  }
+
+  .subscription .subscription-image {
+    max-width: 460px;
+    height: 410px;
+  }
+
+  .subscription-button {
+    margin-bottom: 0;
   }
 }
