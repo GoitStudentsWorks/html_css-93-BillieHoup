@@ -12,6 +12,16 @@ color: var(--main-buttons-color);
     padding-right: 16px;
 }
 
+.about-name-sec::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    width: 30px;
+    height: 1px;
+    background-color: var(--main-buttons-color);
+}
+
 .about-name-sec {
     display: flex;
     align-items:flex-start;
@@ -19,22 +29,17 @@ color: var(--main-buttons-color);
     color: var(--main-buttons-color);
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.15;
+    line-height: 1.5;
+    padding-left: 45px;
     margin-bottom: 30px;
-}
-
-.about-name-sec::before {
-    width: 30px;
-    height: 1px;
-    content: "";
-    background-color: var(--main-buttons-color);
+    position: relative;
 }
 
 .about-name {
     color: var(--main-buttons-color);
     font-size: 28px;
     font-weight: 400;
-    line-height: 1.15;
+    line-height: 1.4;
     margin-bottom: 30px;
     max-width: 343px;
 }
@@ -42,7 +47,7 @@ color: var(--main-buttons-color);
 .about-par {
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.15;
+    line-height: 1.5;
 }
 
 .about-par-1 {
@@ -101,7 +106,7 @@ color: var(--main-buttons-color);
     
 .about-us {
     max-width: 1440px;
-    padding: 0 100px;
+    padding-bottom: 100px;
     margin: 0 auto;
 }
     
@@ -123,6 +128,13 @@ color: var(--main-buttons-color);
     line-height: 1.14;
     margin: 0 auto;
     max-width: 576px;
+    margin-bottom: 30px;
+}
+
+.about-name-sec {
+    padding-left: 45px;
+    max-width: 576px;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 
@@ -181,6 +193,7 @@ color: var(--main-buttons-color);
 
 .about-container {
     padding-top: 21px;
+    padding-left: 69px;
     width: 100%;
     max-width: 760px;
     margin: 0 auto;
@@ -197,8 +210,20 @@ color: var(--main-buttons-color);
     margin-bottom: 30px;
 }
 
+.about-name-sec::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 16%;
+    width: 30px;
+    height: 1px;
+    background-color: var(--main-buttons-color);
+}
+
+
 .about-name-sec {
     padding-top: 36px;
+    max-width: 622px;
     margin-left: auto;
 }
 .about-par-1 {
@@ -224,6 +249,9 @@ color: var(--main-buttons-color);
     width: 100%;
     max-width: 536px;
     height: 540px;
+    margin-left: 0;
+    margin-right: 93px;
+    
 }
 
 .about-span-1 {
