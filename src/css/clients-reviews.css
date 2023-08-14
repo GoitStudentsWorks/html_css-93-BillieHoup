@@ -1,63 +1,77 @@
-.clients-review {
+.clients-section {
   background: var(--main-font-color);
-  width: 100%;
-  max-width: 375px;
+  /* background-color: #585bef; */
   padding: 36px 0 36px 0;
 }
+
+.clients-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-review {
+  width: 100%;
+  max-width: 375px;
+}
+
 .clients-tittle {
-  margin: 36px 71px 70px 30px;
   color: var(--main-buttons-color);
-  font-family: Roboto;
   font-size: 28px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .clients-list {
+  display: flex;
+  align-items: center;
 }
 .clients-item {
+  max-width: 343px;
   color: var(--main-buttons-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
-}
-.clients-box {
-  /* display: inline; */
+  line-height: 1.29;
   border-radius: 8px;
-  background: var(--white, #fff);
-  margin: 30px 16px 36px 16px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 36px;
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 .clients-form {
   display: flex;
 }
-.clients-data {
-}
+
 .clients-photo {
   margin: 24px 14px 20px 24px;
+  width: 48px;
+  height: 48px;
 }
-.clients-info {
-}
+
 .clients-name {
-  margin-top: 24px;
-  margin-left: 2px;
   color: var(--main-buttons-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.79;
   text-transform: uppercase;
+  margin-top: 24px;
+  margin-left: 2px;
 }
 .clients-time {
+  color: var(--main-buttons-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 .clients-words {
-  padding: 24px;
-  padding-top: 0;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.43;
+  padding: 24px;
+  padding-top: 0;
 }
 .tablet-client {
   display: none;
@@ -65,4 +79,81 @@
 
 .pc-client {
   display: none;
+}
+
+/* -----------  TABLET -----------  */
+@media screen and (min-width: 768px) {
+  .clients-review {
+    width: 100%;
+    max-width: 768px;
+  }
+  .clients-tittle {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+  .clients-name {
+    font-size: 20px;
+    line-height: 2.3;
+  }
+  .clients-time {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .clients-photo {
+    margin: 28.5px 14px 18.5px 24px;
+    width: 56px;
+    height: 56px;
+  }
+  .clients-words {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .clients-list {
+    display: flex;
+  }
+  .tablet-client {
+    display: block;
+  }
+}
+
+/* -----------  PC -----------  */
+@media screen and (min-width: 1440px) {
+  .clients-review {
+    width: 100%;
+    max-width: 1320px;
+  }
+  .clients-item {
+    max-width: 424px;
+  }
+
+  .clients-name {
+    font-size: 20px;
+    line-height: 2.3;
+  }
+  .clients-time {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .clients-photo {
+    margin: 36.5px 14px 20.5px 32px;
+    width: 56px;
+    height: 56px;
+  }
+  .clients-words {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 0;
+  }
+  .clients-list {
+    display: flex;
+  }
+  .tablet-client {
+    display: block;
+  }
+  .pc-client {
+    display: block;
+  }
+  .clients-list {
+    column-gap: 16px;
+  }
 }
