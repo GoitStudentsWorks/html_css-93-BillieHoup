@@ -89,6 +89,7 @@ color: var(--main-buttons-color);
 .about-us {
     max-width: 1440px;
     padding: 100px 0;
+    margin: 0 auto;
 }
     
 .about-container {
@@ -150,8 +151,6 @@ color: var(--main-buttons-color);
     max-width: 704px;
     margin-left: auto;
     margin-right: auto;
-    /* padding-left: 16px;
-    padding-right: 16px; */
 }
 }
 
@@ -159,20 +158,14 @@ color: var(--main-buttons-color);
 
 .about-us {
     padding: 100px 0 100px;
-
-    flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* max-width: 1440px; */
 }
 .about-cont-flex {
+    display: flex;
+    justify-content: space-between;
     padding-left: 24px;
     padding-right: 93px;
-    display: flex;
     max-width: 1440px;
-    justify-content: space-between;
     gap: 24px;
-
 }
 
 .about-container {
