@@ -1,4 +1,5 @@
 <section class="about-us">
+    <div class="about-cont-flex">
     <div class="about-container">
         <h2 class="about-name-sec">About us</h2>
         <h3 class="about-name">OUR CRAFTSMANSHIP: CREATING UNIQUE HANDMADE FURNITURE</h3>
@@ -20,7 +21,13 @@
         </ul>
             </div>
         <div class="about-par-5">
-            <img srcset="./img/mobile-product2-1x.jpg 1x, ./img/mobile-product2-2x.jpg 2x" 
-            src="./img/mobile-product2-1x.jpg" alt="bad&flower" class="about-img" width="375">
+            <picture>
+                <source srcset="./img/desctop-product4-1x.jpg 1x, ./img/desctop-product4-2x.jpg 2x"
+                media="(min-width: 1440px)"/>
+                <source srcset="./img/desctop-product4-1x.jpg 1x, ./img/desctop-product4-2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./img/tablet-product3-1x.jpg 1x, ./img/tablet-product3-2x.jpg 2x" media="(min-width: 375px)" />
+                <img src="./img/mobile-product2-1x.jpg" alt="bad&flower" class="about-img" width="704">
+            </picture>
         </div>
+    </div>
 </section>
