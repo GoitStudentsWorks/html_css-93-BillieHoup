@@ -13,9 +13,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    /* outline: 1px solid tomato; */
+        /* outline: 1px solid tomato; */
 }
 @media screen and (min-width: 375px) {
     .bestsellers-container{
@@ -82,9 +80,8 @@
         }   
 @media screen and (min-width: 1440px) {
     .bestseller-title{
-        width: calc(100% - 20px) / 2;
-        column-gap: 20px;
-        row-gap:30px
+        width: calc((100% - 20px) / 2);
+        
         }
         }    
 
@@ -155,8 +152,9 @@
     }   
 @media screen and (min-width: 1440px) {
     .bestseller-list{
-        gap: 0px;
-          
+        flex-wrap: wrap;
+         gap: 30px 20px; 
+         margin-left: 24px;
     }
     }   
 
