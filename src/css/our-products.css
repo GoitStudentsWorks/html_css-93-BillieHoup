@@ -73,7 +73,7 @@
     display: block;
   }
   .product-list {
-    column-gap: 16px;
+    /* column-gap: 16px; */
     position: relative;
     flex-wrap: wrap;
     display: flex;
@@ -86,6 +86,7 @@
     width: 344px;
     height: 300px;
     margin-bottom: 15px;
+    margin-right: 0;
   }
   .product-text {
     font-size: 18px;
