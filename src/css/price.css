@@ -26,7 +26,8 @@ hr {
   list-style-type: none;
   padding-left: 0;
 }
-
+.price {
+}
 .price-title {
   display: flex;
   align-items: center;
