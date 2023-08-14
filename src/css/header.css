@@ -106,6 +106,7 @@
 
     @media screen and (min-width: 1440px) {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         .header-container {min-width: 100%;
 =======
         .header-container {max-width: 1320px;
@@ -118,6 +119,15 @@
           display: flex;
           justify-content: space-between;
         }
+=======
+        .header-container {max-width: 1;
+        padding: 28px 60px;
+        }
+
+        .header-menu {
+        display: flex;
+      justify-content: space-between;}
+>>>>>>> Stashed changes
 
         .mob-menu-open {display: none;}
 
