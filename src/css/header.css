@@ -1,11 +1,13 @@
 .header-container {
-    width: 100%;
+    max-width: 375px;
     height: 88px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 28px 16px;
     background: var(--light-blue, #F7FAFF);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-menu-list {display: none;}
@@ -83,7 +85,7 @@
 
   @media screen and (min-width: 768px) {
     .header-container {
-        max-width: 100%;
+        max-width: 704px;
         padding: 28px 32px;
     }
 
@@ -105,8 +107,14 @@
 
     
     @media screen and (min-width: 1440px) {
-        .header-container {max-width: 100%;
+        .header-container {max-width: 1320px;
         padding: 28px 60px;
+        }
+
+        .menu-wrap {
+          min-width: 1440px;
+          display: flex;
+          justify-content: space-between;
         }
 
         .mob-menu-open {display: none;}
