@@ -92,7 +92,8 @@
     }
 
     .about-tittle {
-        margin-left: 64px;
+    display: flex;
+    text-align: start;
     }
 
     .about-us {
@@ -109,10 +110,12 @@
         font-size: 32px;
         font-weight: 400;
         line-height: 1.4;
+        max-width: 576px;
     }
 
     .about-text {
         font-size: 18px;
+        max-width: 576px;
     }
 
     .about-list {
@@ -146,7 +149,6 @@
     }
 
     .about-tittle {
-        margin-left: 119px;
     }
 
     .about-subtittle {
