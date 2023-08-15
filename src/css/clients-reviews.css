@@ -36,10 +36,12 @@
   display: flex;
   gap: 14px;
   margin-bottom: 24px;
+  align-items: center;
 }
 .clients-photo {
   width: 48px;
   height: 48px;
+  align-self: center;
 }
 .clients-name {
   color: var(--main-buttons-color);
@@ -78,9 +80,9 @@
     line-height: 1.5;
   }
   .clients-photo {
-    /* margin: 28.5px 14px 18.5px 24px; */
     width: 56px;
     height: 56px;
+    align-self: center;
   }
   .clients-words {
     font-size: 18px;
@@ -108,17 +110,6 @@
     gap: 24px;
   }
 
-  /*.clients-review {
-    width: 100%;
-    max-width: 1320px;
-  }
-  */
-  /*
-  .clients-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-  }
   .clients-name {
     font-size: 20px;
     line-height: 2.3;
@@ -127,12 +118,9 @@
     font-size: 16px;
     line-height: 1.5;
   }
-  .clients-photo {
-    width: 56px;
-    height: 56px;
-  }
+
   .clients-words {
     font-size: 18px;
     line-height: 1.5;
-  } */
+  }
 }
