@@ -1,8 +1,9 @@
 :root {
-    --main-buttons-color: #0A224A;
-    --main-form-color: #B6B6B6;
-    --main-font-color: #F7FAFF;
-    --main-text-color: #7A7A7A;
-    --main-footer-color: #ffffff;
-    --main-error-color: #E74A3B;
-  }
+  --main-buttons-color: #0a224a;
+  --main-form-color: #b6b6b6;
+  --main-font-color: #f7faff;
+  --main-text-color: #7a7a7a;
+  --main-footer-color: #ffffff;
+  --main-error-color: #e74a3b;
+  --white: #ffffff;
+}
