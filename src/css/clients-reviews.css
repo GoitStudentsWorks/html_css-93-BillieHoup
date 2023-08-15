@@ -2,14 +2,12 @@
   background: #f7faff;
   padding: 36px 0 36px 0;
 }
-.clients-background {
+
+.clients-list {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.clients-review {
   width: 100%;
-  max-width: 375px;
 }
 .clients-tittle {
   color: var(--main-buttons-color);
@@ -18,10 +16,7 @@
   line-height: 1.5;
   text-transform: uppercase;
   text-align: center;
-}
-.clients-list {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 30px;
 }
 .clients-item {
   max-width: 343px;
@@ -31,20 +26,18 @@
   line-height: 1.29;
   border-radius: 8px;
   background-color: #fff;
-  margin-top: 30px;
-  margin-bottom: 36px;
-  /* margin-right: 16px;
-  margin-left: 16px; */
   display: none;
+  padding: 24px;
 }
 .clients-item:first-child {
   display: block;
 }
 .clients-form {
   display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
 }
 .clients-photo {
-  margin: 24px 14px 20px 24px;
   width: 48px;
   height: 48px;
 }
@@ -54,8 +47,6 @@
   font-weight: 700;
   line-height: 1.79;
   text-transform: uppercase;
-  margin-top: 24px;
-  margin-left: 2px;
 }
 .clients-time {
   color: var(--main-buttons-color);
@@ -67,8 +58,6 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.43;
-  padding: 24px;
-  padding-top: 0;
 }
 /* -----------  TABLET -----------  */
 @media screen and (min-width: 768px) {
@@ -89,7 +78,7 @@
     line-height: 1.5;
   }
   .clients-photo {
-    margin: 28.5px 14px 18.5px 24px;
+    /* margin: 28.5px 14px 18.5px 24px; */
     width: 56px;
     height: 56px;
   }
@@ -109,14 +98,22 @@
 }
 /* -----------  PC -----------  */
 @media screen and (min-width: 1440px) {
-  .clients-review {
-    width: 100%;
-    max-width: 1440px;
-  }
   .clients-item {
     display: block;
-    width: calc((100% - 48px) / 3);
+    max-width: 424px;
+    padding: 32px;
   }
+
+  .clients-list {
+    gap: 24px;
+  }
+
+  /*.clients-review {
+    width: 100%;
+    max-width: 1320px;
+  }
+  */
+  /*
   .clients-list {
     display: flex;
     justify-content: center;
@@ -131,17 +128,11 @@
     line-height: 1.5;
   }
   .clients-photo {
-    margin: 36.5px 14px 20.5px 32px;
     width: 56px;
     height: 56px;
   }
   .clients-words {
     font-size: 18px;
     line-height: 1.5;
-    padding-top: 0;
-  }
-
-  .clients-list {
-    column-gap: 16px;
-  }
+  } */
 }
