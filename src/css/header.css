@@ -23,14 +23,12 @@ padding: 0px 16px;
 .mob-menu-open {
     border: none;
     background-color: var(--light-blue, #F7FAFF);
-    
 }
 
 .is-hidden {
-    left: -900px;
+    opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    
   }
   
 .mob-menu {
@@ -42,9 +40,7 @@ padding: 0px 16px;
     background: var(--white, #FFF);
     z-index: 2;
     display: flex;
-    flex-direction: column;    
-    transition: left 0.3s ease;
-    
+    flex-direction: column;
   }
 
   .mob-header-container {
@@ -136,3 +132,14 @@ padding: 0px 16px;
 
 
     }
+/* 
+    .header-container {max-width: 1439px;
+    padding: 28px 32px;}
+
+
+    .mob-menu-list {padding-top: 150px;
+    
+    }
+
+    }
+ */
