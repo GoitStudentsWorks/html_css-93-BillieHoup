@@ -1,4 +1,6 @@
-.header {background: var(--light-blue, #F7FAFF);}
+.header {background: var(--light-blue, #F7FAFF);
+padding: 0px 16px;
+}
 
 .header-container {
     max-width: 375px;
@@ -7,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -85,6 +88,8 @@
 
 
   @media screen and (min-width: 768px) {
+    .header {padding: 0px 32px;}
+
     .header-container {
         max-width: 704px;
     }
@@ -107,6 +112,9 @@
 
     
     @media screen and (min-width: 1440px) {
+      .header {padding: 0px 60px;}
+
+
         .header-container {max-width: 1320px;
         }
 

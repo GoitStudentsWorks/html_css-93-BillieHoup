@@ -72,6 +72,10 @@
   .product-title:nth-child(-n + 2) {
     display: block;
   }
+  .section-product {
+    font-size: 32px;
+    line-height: 1.41;
+  }
   .product-list {
     /* column-gap: 16px; */
     position: relative;
