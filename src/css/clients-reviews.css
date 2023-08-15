@@ -1,19 +1,16 @@
 .clients-section {
-  background: var(--main-font-color);
+  background: #f7faff;
   padding: 36px 0 36px 0;
 }
-
 .clients-background {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .clients-review {
   width: 100%;
   max-width: 375px;
 }
-
 .clients-tittle {
   color: var(--main-buttons-color);
   font-size: 28px;
@@ -36,20 +33,21 @@
   background-color: #fff;
   margin-top: 30px;
   margin-bottom: 36px;
-  margin-right: 16px;
-  margin-left: 16px;
+  /* margin-right: 16px;
+  margin-left: 16px; */
+  display: none;
 }
-
+.clients-item:first-child {
+  display: block;
+}
 .clients-form {
   display: flex;
 }
-
 .clients-photo {
   margin: 24px 14px 20px 24px;
   width: 48px;
   height: 48px;
 }
-
 .clients-name {
   color: var(--main-buttons-color);
   font-size: 18px;
@@ -72,14 +70,6 @@
   padding: 24px;
   padding-top: 0;
 }
-.tablet-client {
-  display: none;
-}
-
-.pc-client {
-  display: none;
-}
-
 /* -----------  TABLET -----------  */
 @media screen and (min-width: 768px) {
   .clients-review {
@@ -109,22 +99,29 @@
   }
   .clients-list {
     display: flex;
+    justify-content: center;
+    gap: 16px;
   }
-  .tablet-client {
+
+  .clients-item:nth-child(-n + 2) {
     display: block;
   }
 }
-
 /* -----------  PC -----------  */
 @media screen and (min-width: 1440px) {
   .clients-review {
     width: 100%;
-    max-width: 1320px;
+    max-width: 1440px;
   }
   .clients-item {
-    max-width: 424px;
+    display: block;
+    width: calc((100% - 48px) / 3);
   }
-
+  .clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
   .clients-name {
     font-size: 20px;
     line-height: 2.3;
@@ -143,15 +140,7 @@
     line-height: 1.5;
     padding-top: 0;
   }
-  .clients-list {
-    display: flex;
-  }
-  .tablet-client {
-    display: block;
-  }
-  .pc-client {
-    display: block;
-  }
+
   .clients-list {
     column-gap: 16px;
   }
