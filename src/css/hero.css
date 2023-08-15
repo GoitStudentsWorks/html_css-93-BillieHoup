@@ -1,8 +1,6 @@
  .hero-section{
     padding-top: 140px;
         padding-bottom: 313px;
-        padding-left: 16px;
-        padding-right: 52px;
         background-image: url(../img/mobile-product1-1x.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -21,7 +19,8 @@
  .hero-container {
      width: 100%;
      max-width: 375px;
-     
+     padding-left: 16px;
+     padding-right: 52px;
  }
 
  .hero-title {
@@ -72,15 +71,19 @@
      .hero-section{
         padding-top: 64px;
         padding-bottom: 100px;
-        padding-left: 28px;
-        padding-right: 32px;
         background-image: none;
         max-width: 768px;
+        margin-top: 0;
+        margin-bottom: 0;
      }
      
      .hero-container {
-        max-width: 706px;     
-
+        max-width: 706px; 
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 28px;
+        margin-right: 29px;    
+        
      }
 
     .hero-box-first{
@@ -127,21 +130,21 @@
  @media screen and (min-width: 1440px) {
      .hero-section{
       max-width: 1440px;
-      padding-left: 60px;
-      padding-right: 60px;
-      margin-top: 0;
+      
       
      }
     .hero-container{
         display: flex;
         max-width: 1320px;
+        margin-left: 60px;
+        margin-right: 60px;
+        
     }
     .hero-box-first{
         background-image: url(../img/desctop-product1-1x.jpg), 
         url(../img/desctop-product2-1x.jpg);
         background-size: 310px, 648px;
         width: 100%;
-        max-width: 983px;
         margin-right: 25px;
     }
     .hero-box-second{
