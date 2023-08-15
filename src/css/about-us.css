@@ -121,6 +121,7 @@
     .about-list {
         display: flex;
         flex-direction: row;
+        gap:33px;
     }
 
     .about-picture {
@@ -148,7 +149,8 @@
         /* padding: 37px 69px; */
     }
 
-    .about-tittle {
+    .about-list {
+        gap: 56px;
     }
 
     .about-subtittle {
