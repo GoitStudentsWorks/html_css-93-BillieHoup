@@ -7,8 +7,8 @@ hr {
   width: 100%;
   max-width: 343px;
   margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
 }
 .visually-hidden {
   position: absolute;
@@ -91,6 +91,6 @@ hr {
 
 @media screen and (min-width: 1440px) {
   .container-price {
-    max-width: 1092px;
+    max-width: 1096px;
   }
 }
