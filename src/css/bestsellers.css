@@ -1,13 +1,12 @@
 .bestsellers{
-    margin-top: 64px;
-    margin-bottom: 64px;
+    /* padding-top: 64px; */
+    padding-bottom: 64px;
 }
 @media screen and (min-width: 768px) {
     .bestsellers{
-    margin-bottom: 100px;
-    }
+        padding-bottom: 100px;
 }
-
+}
 
 .bestsellers-container{
     width: 100%;
@@ -36,6 +35,11 @@
 
 .bestseller-box{
     margin-bottom: 30px;
+}
+@media screen and (min-width: 1440px) {
+    .bestseller-box{
+        margin-bottom: 0px;
+}
 }
 
 
@@ -84,9 +88,16 @@
 @media screen and (min-width: 1440px) {
     .bestseller-title{
         width: calc((100% - 20px) / 2);
-        
         }
-        }    
+        }  
+        
+    .bestseller-title:last-child{
+        margin-bottom: 0px;  
+    } 
+    .last{
+        margin-bottom: 0px;  
+    }
+    
 
 
     .bestseller-text{
@@ -166,6 +177,7 @@
         min-width: 536px;
     }
     }   
-    
+
+  
    
       
