@@ -21,7 +21,7 @@
 }
 .clients-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .clients-item {
   max-width: 343px;
