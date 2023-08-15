@@ -1,95 +1,81 @@
 .about-us {
-    padding-bottom: 64px;
+  padding-bottom: 64px;
 }
-
 .about-container {
-    padding: 64px 16px;
-    background-color: var(--main-font-color, #F7FAFF);
+  padding: 64px 16px;
+  background-color: var(--main-font-color, #f7faff);
 }
 
 .about-tittle {
-    color: var(--main-buttons-color, #0A224A);
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 50px;
-    position: relative;
+  color: var(--main-buttons-color, #0a224a);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 50px;
+  position: relative;
 }
-
 .about-tittle::before {
-    position: absolute;
-    content: '';
-    width: 30px;
-    height: 1px;
-    background-color: var(--main-buttons-color);
-    bottom: 50%;
-    left: -40px;
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 1px;
+  background-color: var(--main-buttons-color);
+  bottom: 50%;
+  left: -40px;
 }
 
 .about-subtittle {
-    color: var(--main-buttons-color, #0A224A);
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    max-width: 343px;
+  color: var(--main-buttons-color, #0a224a);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 343px;
 }
-
 .about-text {
-    color: var(--main-buttons-color, #0A224A);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    max-width: 343px;
+  color: var(--main-buttons-color, #0a224a);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 343px;
 }
-
 .about-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
 }
-
 .about-info {
-    color: var(--main-buttons-color, #0A224A);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    max-width: 170px;
-    text-align: center;
+  color: var(--main-buttons-color, #0a224a);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 170px;
+  text-align: center;
 }
-
 .about-number {
-    color: var(--main-buttons-color);
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 14px;
+  color: var(--main-buttons-color);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 14px;
 }
 
 .about-picture {
-    max-width: 375px;
-    margin: 0 auto;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 /* ------- TABLET ------- */
-@media screen and (min-width: 768px) {
-    .about-container {
-        width: 100%;
-        max-width: 704px;
-        margin: 0 auto;
-        padding: 36px 64px;
-        /* margin-bottom: 30px; */
-    }
 
     .about-tittle {
     display: flex;
@@ -124,11 +110,31 @@
         gap:33px;
     }
 
-    .about-picture {
-        width: 100%;
-        max-width: 704px;
-    }
+
+  .about-picture {
+    margin: 0 auto;
+  }
+  .about-subtittle {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 576px;
+  }
+  .about-text {
+    font-size: 18px;
+    max-width: 576px;
+  }
+  .about-list {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+  }
+  .about-picture {
+    width: 100%;
+    max-width: 704px;
+  }
 }
+/* ------- PC ------- */
 
 /* ------- PC ------- */
 @media screen and (min-width: 1440px) {
