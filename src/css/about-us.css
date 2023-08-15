@@ -1,6 +1,11 @@
 .about-us {
     padding-bottom: 64px;
 color: var(--main-buttons-color);
+
+}
+
+.about-cont-flex {
+background-color: var(--main-font-color)
 }
 
 .about-container {
