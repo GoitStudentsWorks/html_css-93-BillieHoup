@@ -104,6 +104,7 @@
   .hero-title {
     max-width: 648px;
     font-size: 50px;
+    margin-left: 10px;
   }
 
   .hero-box-second {
