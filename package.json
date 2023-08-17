@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/8UY_A_TANK/",
+    "build": "vite build --base=/html_css-93-BillieHoup/",
     "preview": "vite preview"
   },
   "devDependencies": {
